@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumimix</title>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a class="header__link" href="/">
+            <img
+                class="header__logo"
+                src="assets/icons/logo.svg" alt="Lumimix logo"/>
+        </a>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+       
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <img class="menu__img" src="/assets/icons/logo2.svg" alt="" />
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Accueil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/lefestival.html">Le Festival (à propos)</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/programmation.html">Programmation</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/artistes.html">Artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/scenes.html">Scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/infospratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/contact.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main class="main">
+        <section class="hero">
+            <button class="hero__btn btn">
+                <span class="btn__text">Je réserve mes places</span>
+            </button>
+        </section>
+
+        <section class = "infospratiques">
+            <h1 class="infospratiques__titre">7/8/9 AOÛT 2026</h1>
+            <div class="infospratiques__pass">
+                <button class="infospratiques__btn btn">
+                    <span class="btn__text">EARLY</span>
+                </button>
+                <h4 class = "infospratiques__nombre">PASS 3 JOURS</h4>
+                <h4 class = "infospratiques__jours">VEN/SAM/DIM</h4> 
+                <h4 class = "infospratiques__prix">170€</h4>           
+            </div>
+
+            <div class="infospratiques__pass">
+                <button class="infospratiques__btn btn">
+                    <span class="btn__text">REGULAR</span>
+                </button>
+                <h4 class = "infospratiques__nombre">PASS 2 JOURS</h4>
+                <h4 class = "infospratiques__jours">SAM/DIM</h4> 
+                <h4 class = "infospratiques__prix">110€</h4>           
+            </div>
+
+            <div class="infospratiques__pass">
+                <button class="infospratiques__btn btn">
+                    <span class="btn__text">LATE</span>
+                </button>
+                <h4 class = "infospratiques__nombre">PASS 1 JOUR</h4>
+                <h4 class = "infospratiques__jours">VEND-SAM-DIM</h4> 
+                <h4 class = "infospratiques__prix">69€</h4>           
+            </div>
+
+            <ul class = "infospratiques__autres">
+                <li class = "infospratiques__transport">Pour y aller :  des navettes seront mises en places</li>
+                <li class = "infospratiques__logement">Pour se loger : possibilité de dormir au camping créer spécialiement pour le festival</li>
+            </ul>
+        </section>
+
+    <footer class="footer">
+        <div class="footer__contenu">
+            <div class="footer__contact contact">
+                <h4 class="contact__title">REJOIGNEZ-NOUS</h4>
+                <address class="contact__address">
+                    <p class="contact__text">Presqu'île de Malsausy</p>
+                    <p class="contact__text">90 000 BELFORT</p>
+                    <p class="contact__text">
+                        <a class="contact__link" href="mailto:lumimix@festival.fr">lumimix@festival.fr</a>
+                    </p>
+                    <p class="contact__text">
+                        <a class="contact__link" href="tel:0334674367">03 34 67 43 67</a>
+                    </p>
+                </address>
+                <p class="contact__legal">
+                    <a class="contact__link contact__link--muted" href="/politique-confidentialite">
+                        politique de confidentialité
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer__newsletter newsletter">
+                <h4 class="newsletter__title">NEWSLETTER</h4>
+                <button class="newsletter__btn btn">
+                    <span class="btn__text">Je m'inscris</span>
+                </button>
+                
+                <div class="newsletter__social social">
+                    <a class="social__link" href="https://www.facebook.com/?locale=fr_FR" aria-label="Facebook">
+                        <img class="social__icon" src="/assets/icons/Facebook.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.instagram.com/" aria-label="Instagram">
+                        <img class="social__icon" src="/assets/icons/Instagram.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.linkedin.com/feed/" aria-label="LinkedIn">
+                        <img class="social__icon" src="/assets/icons/LinkedIn.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.youtube.com/" aria-label="YouTube">
+                        <img class="social__icon" src="/assets/icons/Youtube.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+    
+
+
