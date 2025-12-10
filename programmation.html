@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumimix</title>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a class="header__link" href="/">
+            <img
+                class="header__logo"
+                src="assets/icons/logo.svg" alt="Lumimix logo"/>
+        </a>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+       
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <img class="menu__img" src="/assets/icons/logo2.svg" alt="" />
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Accueil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/lefestival.html">Le Festival (à propos)</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/programmation.html">Programmation</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/artites.html">Artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/scènes.html">Scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/infospratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/contact.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="programme">
+            <h1 class="programme__titre">Programmation</h1>
+        
+        <div class="programme__jour">    
+            <h2 class="programme__sous-titre">Vendredi 7 août</h2>
+            <h3 class="programme__scène">Scène Bleue (Electro)</h3>
+            <ul class="programme__liste">
+                <li class="programme__artiste">18h00 — 19h00 : Quintito</li>
+                <li class="programme__artiste">19h30 — 20h30 : DVBBS</li>
+                <li class="programme__artiste">21h00 — 22h00 : Lost Frequencies</li>
+            </ul>
+        </div>
+
+        <div class="programme__jour">
+            <h2 class="programme__sous-titre">Samedi 8 août</h2>
+            <h3 class="programme__scène">Scène Verte (Reggae)</h3>
+            <ul class="programme__liste">
+                <li class="programme__artiste">18h00 — 19h00 : Maraboutage</li>
+                <li class="programme__artiste">19h30 — 20h30 : Jah Lil</li>
+                <li class="programme__artiste">21h00 — 22h00 : Mellow Mood</li>
+            </ul>
+        </div>
+
+        <div class="programme__jour">
+            <h2 class="programme__sous-titre">Dimanche 9 août</h2>
+            <h3 class="programme__scène">Scène Lumix (Têtes d'affiche)</h3>
+            <ul class="programme__liste">
+                <li class="programme__artiste">22h00 — 23h00 : Burning Spear</li>
+                <li class="programme__artiste">23h30 — 01h00 : David Guetta</li>
+            </ul>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenu">
+            <div class="footer__contact contact">
+                <h4 class="contact__title">REJOIGNEZ-NOUS</h4>
+                <address class="contact__address">
+                    <p class="contact__text">Presqu'île de Malsausy</p>
+                    <p class="contact__text">90 000 BELFORT</p>
+                    <p class="contact__text">
+                        <a class="contact__link" href="mailto:lumimix@festival.fr">lumimix@festival.fr</a>
+                    </p>
+                    <p class="contact__text">
+                        <a class="contact__link" href="tel:0334674367">03 34 67 43 67</a>
+                    </p>
+                </address>
+                <p class="contact__legal">
+                    <a class="contact__link contact__link--muted" href="/politique-confidentialite">
+                        politique de confidentialité
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer__newsletter newsletter">
+                <h4 class="newsletter__title">NEWSLETTER</h4>
+                <button class="newsletter__btn btn">
+                    <span class="btn__text">Je m'inscris</span>
+                </button>
+                
+                <div class="newsletter__social social">
+                    <a class="social__link" href="https://www.facebook.com/?locale=fr_FR" aria-label="Facebook">
+                        <img class="social__icon" src="/assets/icons/Facebook.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.instagram.com/" aria-label="Instagram">
+                        <img class="social__icon" src="/assets/icons/Instagram.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.linkedin.com/feed/" aria-label="LinkedIn">
+                        <img class="social__icon" src="/assets/icons/LinkedIn.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.youtube.com/" aria-label="YouTube">
+                        <img class="social__icon" src="/assets/icons/Youtube.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
