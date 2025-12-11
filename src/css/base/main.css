@@ -1,0 +1,14 @@
+/* Change le modèle de boite par défaut */
+* {
+	box-sizing: border-box;
+}
+
+/* Scroll fluide pour les ancres */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sélection de texte personnalisée */
+::selection {
+  background-color: var(--toniqueLight);
+}
