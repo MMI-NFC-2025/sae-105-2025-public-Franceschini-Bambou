@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /*style de base du body pour chaque page*/
 .pagebleu {
 	line-height: 1.4;
@@ -54,7 +55,6 @@ body {
 }
 
 .section {
-  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,58 @@ body {
 .section__titre {
   width: 24.5625rem;             
   color: var(--rouge);
+  font-family: var(--string-artiste);            
+  font-size: 1.5rem;
+  font-weight: 400;;
+  letter-spacing: 0.075rem;
+}
+.accueil {
+  position:relative;
+  text-align: center;
+  color: var(--blanc);
+}
+.accueil__img {
+  width: 21.8125rem;
+  height: 12.5625rem;
+  border-radius: 15px;
+}
+.accueil__date {
+  font-family: var(--string-t-p);
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+}
+.accueil__artists {
+  list-style: none;       
+  color: var(--blanc);
   font-family: var(--string-artiste);
-  font-size: 1.6rem;            
-  line-height: 1.6;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;                    /* permet le retour à la ligne */
+  justify-content: center;
+  gap: 0.25rem 1.5rem;                /* espace lignes / colonnes */
+  border-spacing: 0 0.5rem;
+}
+
+/* Style de base pour chaque artiste */
+.artists__item {
+  width:100px;
+  display:block;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  text-transform: none;
+  white-space: nowrap;                /* évite que les noms se coupent */
+  
+}
+
+/* Têtes d’affiche (DAVID GUETTA, etc.) */
+.artists__item--headliner {
+  width:100px;
+  display:block;
+  font-size: 1.25rem;;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;              /* crée un petit espace sous la ligne des headliners */
 }
