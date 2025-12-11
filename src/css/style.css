@@ -2,3 +2,8 @@
 @import "./utils/variables.css";
 @import "base/main.css";
 @import "base/media.css";
+
+/*typography*/
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Madimi+One&display=swap');
+
+

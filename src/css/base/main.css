@@ -8,9 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Sélection de texte personnalisée */
-::selection {
-  background-color: var(--toniqueLight);
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .madimi-one-regular {
@@ -25,10 +26,57 @@ html {
 }
 
 
-/*style de base du body*/
-  body {
+/*style de base du body pour chaque page*/
+.pagebleu {
 	line-height: 1.4;
 	letter-spacing: -0.03rem;
 	background-color: var(--bleu);
-	color: var(--blanc);
 }
+.pageverte {
+	line-height: 1.4;
+	letter-spacing: -0.03rem;
+	background-color: var(--vert);
+}
+.pagerouge {
+	line-height: 1.4;
+	letter-spacing: -0.03rem;
+	background-color: var(--rouge);
+}
+.pageciel {
+	line-height: 1.4;
+	letter-spacing: -0.03rem;
+	background-color: var(--ciel);
+}
+
+/*style des heros*/
+.heroprogramme {
+  background-color: var(--bleu);
+  font-family : "Madimi One";
+  color : var(--blanc);
+}
+.hero {
+  background-image: url("/assets/img/img16.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 35vh;        /* hauteur du hero */
+  display: flex;           /* permet de centrer le contenu */
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  margin : 0;
+}
+.hero__btn {
+  background-color: var(--bleu);
+  color: var(--blanc);
+  border: 3px solid var(--vert);
+  padding: 1rem 1rem;
+  font-family: "Kirang Haerang";   
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+
