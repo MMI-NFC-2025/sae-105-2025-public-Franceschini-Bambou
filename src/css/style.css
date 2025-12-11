@@ -2,19 +2,19 @@
 @import "./utils/variables.css";
 
 /*base*/
-@import "base/main.css";
-@import "base/media.css";
+@import "./base/main.css";
+@import "./base/media.css";
 
 /*layout*/
-@import "components/header.css";
-@import "components/footer.css";
+@import "./layout/header.css";
+@import "./layout/footer.css";
 
 /*components*/
-@import "components/button.css";
-@import "components/menu.css";
+@import "./components/button.css";
+@import "./components/menu.css";
 
 /*vendors*/
-@import "vendors/normalize.css";
+@import "./vendors/normalize.css";
 
 /*typography*/
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Madimi+One&display=swap');
