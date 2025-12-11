@@ -52,3 +52,19 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.section {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;           
+}
+
+.section__titre {
+  width: 24.5625rem;             
+  color: var(--rouge);
+  font-family: var(--string-artiste);
+  font-size: 1.6rem;            
+  line-height: 1.6;
+}
