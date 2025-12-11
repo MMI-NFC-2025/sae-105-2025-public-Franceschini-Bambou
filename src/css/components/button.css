@@ -2,11 +2,13 @@
   background-color: var(--bleu);
   color: var(--blanc);
   border: 3px solid var(--vert);
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   font-family: var(--string-artiste);   
   font-size: 1rem;
   cursor: pointer;
+  margin-bottom: 0.5rem
 }
+
 .section__btn2 {
   background-color: var(--rouge);
   color: var(--blanc);
