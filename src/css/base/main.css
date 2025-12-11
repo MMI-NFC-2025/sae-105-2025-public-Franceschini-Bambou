@@ -12,3 +12,23 @@ html {
 ::selection {
   background-color: var(--toniqueLight);
 }
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kirang-haerang-regular {
+  font-family: "Kirang Haerang", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*style de base du body*/
+  body {
+	line-height: 1.4;
+	letter-spacing: -0.03rem;
+	background-color: var(--bleu);
+	color: var(--blanc);
+}
