@@ -1,0 +1,26 @@
+.header {
+	background-color: var(--vert);
+  	color: var(--bleu);
+    display: flex;
+    align-items: center;      /* aligne verticalement logo + bouton */
+    justify-content: space-between; /* logo à gauche, bouton à droite */
+    padding: 1rem;
+}
+.header__menu-btn {
+    width: 2rem; /* Largeur totale de l'icône*/
+    height: 0.875rem;  /*Hauteur totale de l'icône*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*Espacement uniforme entre les barres*/
+    cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.menu-btn__bar {
+    display: block;
+    width: 100%;
+    height: 0.15rem; /* Épaisseur de la barre */
+	background-color: var(--bleu);
+	border-radius: 3px; /*Bords arrondis*/
+}

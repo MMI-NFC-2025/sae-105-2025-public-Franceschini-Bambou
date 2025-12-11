@@ -1,7 +1,20 @@
 /*utils*/
 @import "./utils/variables.css";
+
+/*base*/
 @import "base/main.css";
 @import "base/media.css";
+
+/*layout*/
+@import "components/header.css";
+@import "components/footer.css";
+
+/*components*/
+@import "components/button.css";
+@import "components/menu.css";
+
+/*vendors*/
+@import "vendors/normalize.css";
 
 /*typography*/
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Madimi+One&display=swap');
