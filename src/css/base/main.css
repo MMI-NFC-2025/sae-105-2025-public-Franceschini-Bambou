@@ -28,7 +28,7 @@ body {
 /*style des heros*/
 .heroprogramme {
   background-color: var(--bleu);
-  font-family : "Madimi One";
+  font-family : var(--string-t-p);
   color : var(--blanc);
 }
 .hero {
@@ -48,7 +48,7 @@ body {
   color: var(--blanc);
   border: 3px solid var(--vert);
   padding: 1rem 1rem;
-  font-family: "Kirang Haerang";   
+  font-family: var(--string-artiste);   
   font-size: 1rem;
   cursor: pointer;
 }

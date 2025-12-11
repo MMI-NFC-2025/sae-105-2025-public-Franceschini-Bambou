@@ -1,0 +1,93 @@
+.footer {
+  background-color: var(--bleu);
+}
+
+.footer__contenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1.5rem;
+  /* Added padding for proper spacing within footer */
+}
+
+/* Colonne gauche : contact */
+.contact__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  margin: 0 0 1rem 0;
+  /* Reduced margin from 2.025rem to 0 0 1rem 0 to make footer more compact */
+  color: var(--vert);
+  font-family: var(--string-t-p);
+}
+
+.contact__text {
+  margin: 0 0 0.3rem;
+  font-size: 0.9rem;
+  color: var(--blanc);
+  font-style: var(--string-info);
+}
+
+.contact__address {
+  margin: 0;
+  /* Reset address margin to prevent extra spacing */
+}
+
+.contact__legal {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
+.contact__link {
+  color: var(--blanc);
+  text-decoration: none;
+}
+
+/* Colonne droite : newsletter */
+.footer__newsletter {
+  text-align: center;
+}
+
+.newsletter__title {
+  color: var(--blanc);
+  font-family: var(--string-t-p);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0 0 1rem 0;
+  
+}
+
+/* Bouton vert */
+.newsletter__btn {
+  background-color: var(--vert);
+  color: var(--bleu);
+  border: none;
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.btn__text {
+  font-family: var(--string-info);
+}
+
+/* Icônes réseaux */
+.newsletter__social {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.social__icon {
+  width: 20px;
+  height: 20px;
+}
+
