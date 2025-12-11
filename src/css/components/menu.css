@@ -1,0 +1,62 @@
+.menu {
+  position: fixed;
+  inset: 0;                    /* prend tout l’écran */
+  background-color:var(--rouge);   /* fond rouge */
+  color: var(--blanc);
+  font-family: var(--string-t-p);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  z-index: 20;
+}
+
+/* Logo en haut */
+.menu__img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* Bouton de fermeture en haut à droite */
+.menu__close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.close-btn__icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Liste des liens */
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.menu__item + .menu__item {
+  margin-top: 0.8rem;          /* espace entre les liens */
+}
+
+.menu__link {
+  text-decoration: none;
+  color: var(--blanc);
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  text-decoration: underline;
+}
