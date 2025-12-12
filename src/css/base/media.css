@@ -3,3 +3,31 @@
     align-items: center;
     gap: 5rem;
 }
+.scene__link {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.scene__link {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.histoire__image {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
