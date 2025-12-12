@@ -330,3 +330,12 @@ body {
   font-weight: 400;
   line-height: 125.194%; /* 1.09544rem */
 }
+.histoire__image {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
