@@ -339,3 +339,41 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.heroprogramme__titre {
+  color: var(--blanc);
+  text-align: justify;
+  font-family: var(--string-t-p);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--ciel);
+}
+
+.programme__sous-titre {
+  color: var(--vert);
+  text-align: justify;
+  font-family: var(--string-t-p);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.programme__scene {
+  color: var(--rouge);
+  text-align: justify;
+  font-family: var(--string-artiste);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.programme__liste {
+  color: var(--blanc);
+  font-family: var(--string-artiste);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
