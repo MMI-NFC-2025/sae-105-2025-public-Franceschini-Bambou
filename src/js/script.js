@@ -39,20 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', closeMenu);
     });
 
-    /*Le MENU se trouve dans toutes les pages : 
-    url :   /index.html
-            /artistes.html
-            /contact.html
-            /infospratiques.html
-            /lefestival.html
-            /programmation.html
-            /scenes.html
-            /templateartistes.html
-            /templateartistes2.html
-            /templatescene.html
-            /templatescene.html2
-            /404.html 
-            */
 
     // ========== CAROUSEL ==========
     /* Recherche de la boîte qui contient les boutons et les images du carousel*/
@@ -85,8 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-    /*Le CAROUSEL se truve sur la page :
-    url : /artistes.html*/
 
     // ========== BOUTON VERS LE HAUT ==========
     /* Recherche du bouton qui actionne le retour en haut de page */
@@ -113,3 +97,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
