@@ -425,3 +425,73 @@ body {
   font-weight: 400;
   line-height: 125.194%; /* 2.34738rem */
 }
+
+
+.herotemplate {
+  background-image: url("/assets/img/artistes/david.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.herotemplate2{
+  background-image: url("/assets/img/artistes/burning.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.herotemplate__titre {
+  color: var(--vert);
+  text-align: center;
+  font-family: var(--string-t-p);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.194%; 
+}
+
+.herotemplate__sous-titre {
+  color: var(--blanc);
+  font-family: var(--string-t-p), sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.biographie {
+  background-color: var(--rouge);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biographie__texte {
+  color: var(--blanc);
+  font-family: var(--string-info), sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 50rem;
+  margin: 0;
+  text-align: justify;
+}
+
+.galleriephoto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.galleriephoto__photo1,
+.galleriephoto__photo2,
+.galleriephoto__photo3,
+.galleriephoto__photo4 {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
