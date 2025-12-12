@@ -528,5 +528,32 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   min-height: 35vh;     
+}
+
+.heroscene2 {
+  background-image: url("/assets/img/scènes/bleue.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 35vh;     
+}
+
+.heroscene__title {
+  color: var(--blanc);
+  text-align: center;
+  font-family: var(--string-t-p);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.194%;
+  padding: 2rem 1rem;
+  margin: 0;
 }
