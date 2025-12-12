@@ -1,20 +1,50 @@
-.section__btn {
+
+.btn {
+  font-family: var(--string-artiste), cursive;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn2 {
+  font-family: var(--string-t-p), sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero__btn {
   background-color: var(--bleu);
   color: var(--blanc);
   border: 3px solid var(--vert);
-  padding: 1rem 2rem;
-  font-family: var(--string-artiste);   
+  padding: 1rem 1rem;
+  font-family: var(--string-artiste), cursive;   
   font-size: 1rem;
   cursor: pointer;
+}
+
+.section__btn {
+  background-color: var(--bleu);
+  font-family: var(--string-artiste), cursive;
+  color: var(--blanc);
+  border: 3px solid var(--vert);
+  padding: 1rem 2rem;
   margin-bottom: 0.5rem
 }
 
 .section__btn2 {
   background-color: var(--rouge);
+  font-family: var(--string-t-p), sans-serif;
   color: var(--blanc);
   border: 3px solid var(--vert);
   padding: 2rem 4rem;
-  font-family: var(--string-t-p);   
+  margin-bottom: 1rem
+}
+
+.infospratiques__btn {
+  background-color: var(--blanc);
+  font-family: var(--string-t-p), cursive;
+  color: var(--bleu);
+  border: 3px solid var(--vert);
+  padding: 0.4375rem 2.8125rem;
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem

@@ -12,9 +12,9 @@
 :root {
   /* Mode 1 */
   /* string */
-  --string-t-p: Madimi One;
-  --string-artiste: Kirang Haerang;
-  --string-info: Kmer;
+  --string-t-p: "Madimi One", system-ui, sans-serif;
+  --string-artiste: "Kirang Haerang", cursive;
+ --string-info: "Kmer";
 }
 /* space */
 :root {
