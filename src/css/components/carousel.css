@@ -35,6 +35,9 @@
 .carousel__item {
   flex: 0 0 280px;
   scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel__artiste {
@@ -97,14 +100,3 @@
 }
 
 
-
-.carousel__btn:hover {
-  opacity: 0.8;
-}
-
-.btn__fleche,
-.btn__fleche2 {
-  font-size: 2.5rem;
-  color: var(--blanc);
-  font-weight: bold;
-}

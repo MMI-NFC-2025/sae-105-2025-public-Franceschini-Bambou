@@ -70,9 +70,20 @@
   cursor: pointer;
   padding: 0.5rem;
   font-size: 2rem;
-  color: var(--blanc);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+}
+.carousel__btn:hover {
+  opacity: 0.8;
+}
+
+.btn__fleche,
+.btn__fleche2 {
+  font-size: 2.5rem;
+  color: var(--blanc);
+  font-weight: bold;
+  background: none;
+	border: none;
 }
