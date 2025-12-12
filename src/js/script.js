@@ -55,3 +55,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+    // ========== bouton vers le haut ==========
+const btnHaut = document.getElementById('btn-retour-haut');
+ if (btnHaut) {
+
+    window.addEventListener('scroll', () => {
+      const isBottom = (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 50);
+
+      if (isBottom) {
+        btnHaut.classList.add('visible');
+      } else {
+        btnHaut.classList.remove('visible');
+      }
+    });
+
+    btnHaut.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
