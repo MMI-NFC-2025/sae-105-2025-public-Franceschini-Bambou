@@ -377,3 +377,31 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.pdf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.pdf a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--bleu);
+  border: 3px solid var(--bleu);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--blanc);
+  font-family: var(--string-t-p), sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.pdf a:hover {
+  background-color: transparent;
+  color: var(--bleu);
+}
+
