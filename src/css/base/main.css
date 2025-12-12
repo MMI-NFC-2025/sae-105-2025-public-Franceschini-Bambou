@@ -557,3 +557,33 @@ body {
   padding: 2rem 1rem;
   margin: 0;
 }
+
+.performance__titre {
+  color:var(--blanc);
+text-align: left;
+font-family: var(--string-t-p);
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 125.194%;
+}
+
+.performance__date {
+  color: var(--vert);
+  text-align: left;
+  font-family: var(--string-t-p);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.performance__artiste{
+  color:var(--blanc);
+  text-align: left;
+  font-family: var(--string-artiste);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.194%; 
+}
