@@ -112,6 +112,62 @@ body {
   margin-bottom: 0.4rem;              /* crée un petit espace sous la ligne des headliners */
 }
 
-
-
-
+.infospratiques__titre {
+ color: var(--bleu);
+ font-family: var(--string-t-p);
+ font-size: 2.5rem;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.infospratiques__pass{
+  background-color: var(--bleu);
+  color: var(--blanc);
+  width: 18.75rem;
+  height: 18.75rem;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+.pass__nombre {
+  font-family: var(--string-t-p);
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+.pass__jours {
+  font-family: var(--string-info), sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+.pass__prix {
+  font-family: var(--string-t-p);
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0.5rem 0 0 0;
+}
+.infospratiques__autres {
+  font-family: var(--string-t-p);
+  color: var(--blanc);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
