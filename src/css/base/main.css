@@ -256,3 +256,64 @@ body {
   text-transform: capitalize;
 }
 
+.section__title{
+  width: 24.5625rem;             
+  color: var(--blanc);
+  background-color: var(--rouge);
+  font-family: var(--string-artiste);            
+  font-size: 1.5rem;
+  font-weight: 400;;
+  letter-spacing: 0.075rem;
+}
+
+/* Tableau */
+.tableau {
+  background-color: var(--vert);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tableau__info {
+  width: 100%;
+  max-width: 40rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tableau__header {
+  color: var(--bleu);
+  padding: 1rem;
+  font-family: var(--string-t-p), sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid var(--rouge);
+  border-right: 2px solid var(--rouge);
+}
+
+.tableau__header:last-child {
+  border-right: none;
+}
+
+.tableau__data {
+  color: var(--blanc);
+  padding: 1rem;
+  font-family: var(--string-artiste), sans-serif;
+  font-size: 0.95rem;
+  border-bottom: 2px solid var(--rouge);
+  border-right: 2px solid var(--rouge);
+}
+
+.tableau__data:last-child {
+  border-right: none;
+}
+
+.tableau__artiste {
+  color: var(--blanc);
+  list-style: none;
+  padding: 0.25rem;
+  font-family: var(--string-artiste), cursive;
+  font-size: 0.9rem;
+}
