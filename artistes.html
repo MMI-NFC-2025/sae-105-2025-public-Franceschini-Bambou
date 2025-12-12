@@ -64,13 +64,9 @@
                 <span class="btn__text">Voir la programmation</span>
             </button>
         </section>
-        <section class="carousel">
-            <button class="carousel__btn carousel__btn--prev btn" aria-label="artistes précédents">
-                <span class="btn__fleche">‹</span>
-            </button>
-
-            <div class="carousel__container">
-                <div class="carousel__slide">
+        <section class="carousel" aria-labelledby="carousel-heading">
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
                     <div class="carousel__artiste">
                         <a class="artistes__link" href="/templateartistes.html">
                             <img class="artistes__img" src="assets/img/artistes/david.avif" alt="Photo de David Guetta"/>
@@ -81,65 +77,70 @@
                     </div>
                 </div>
 
-                <div class="carousel__slide">
-                    <div class="carousel__artiste2 artistes2">
-                        <a class="artistes2__link" href="/templateartistes2.html">
-                            <img class="artistes2__img" src="assets/img/artistes/burning.avif" alt="Photo de Burning Spear"/>
+                <div class="carousel__item" id="mainNav" hidden>
+                    <div class="carousel__artiste">
+                        <a class="artistes__link" href="/templateartistes2.html">
+                            <img class="artistes__img" src="assets/img/artistes/burning.avif" alt="Photo de Burning Spear"/>
                         </a>
-                        <h3 class="artistes2__nom">Burning Spear</h3>
-                        <h3 class="artistes2__date">7 AOÛT</h3>
-                        <h3 class="artistes2__scene">scène Lumix</h3>
+                        <h3 class="artistes__nom">Burning Spear</h3>
+                        <h3 class="artistes__date">7 AOÛT</h3>
+                        <h3 class="artistes__scene">scène Lumix</h3>
                     </div>
                 </div>
 
-                <div class="carousel__slide">
-                    <div class="carousel__artiste3 artistes3">
-                        <a class="artistes3__link" href="/templateartistes3.html">
-                            <img class="artistes3__img" src="assets/img/artistes/ofenbach.avif" alt="Photo de Ofenbach"/>
+                <div class="carousel__item">
+                    <div class="carousel__artiste">
+                        <a class="artistes__link" href="/templateartistes3.html">
+                            <img class="artistes__img" src="assets/img/artistes/ofenbach.avif" alt="Photo de Ofenbach"/>
                         </a>
-                        <h3 class="artistes3__nom">Ofenbach</h3>
-                        <h3 class="artistes3__date">8 AOÛT</h3>
-                        <h3 class="artistes3__scene">scène Lumix</h3>
+                        <h3 class="artistes__nom">Ofenbach</h3>
+                        <h3 class="artistes__date">8 AOÛT</h3>
+                        <h3 class="artistes__scene">scène Lumix</h3>
                     </div>
                 </div>
 
-                <div class="carousel__slide">
-                    <div class="carousel__artiste4 artistes4">
-                        <a class="artistes4__link" href="/templateartistes4.html">
-                            <img class="artistes4__img" src="assets/img/artistes/third.avif" alt="Photo de Third World"/>
+                <div class="carousel__item">
+                    <div class="carousel__artiste">
+                        <a class="artistes__link" href="/templateartistes4.html">
+                            <img class="artistes__img" src="assets/img/artistes/third.avif" alt="Photo de Third World"/>
                         </a>
-                        <h3 class="artistes4__nom">Third World</h3>
-                        <h3 class="artistes4__date">8 AOÛT</h3>
-                        <h3 class="artistes4__scene">scène Lumix</h3>
+                        <h3 class="artistes__nom">Third World</h3>
+                        <h3 class="artistes__date">8 AOÛT</h3>
+                        <h3 class="artistes__scene">scène Lumix</h3>
                     </div>
                 </div>
 
-                <div class="carousel__slide">
-                    <div class="carousel__artiste5 artistes5">
-                        <a class="artistes5__link" href="/templateartistes5.html">
-                            <img class="artistes5__img" src="assets/img/artistes/martin.avif" alt="Photo de Martin Solveig"/>
+                <div class="carousel__item">
+                    <div class="carousel__artiste">
+                        <a class="artistes__link" href="/templateartistes5.html">
+                            <img class="artistes__img" src="assets/img/artistes/martin.avif" alt="Photo de Martin Solveig"/>
                         </a>
-                        <h3 class="artistes5__nom">Martin Solveig</h3>
-                        <h3 class="artistes5__date">9 AOÛT</h3>
-                        <h3 class="artistes5__scene">scène Lumix</h3>
+                        <h3 class="artistes__nom">Martin Solveig</h3>
+                        <h3 class="artistes__date">9 AOÛT</h3>
+                        <h3 class="artistes__scene">scène Lumix</h3>
                     </div>
                 </div>
 
-                <div class="carousel__slide">
-                    <div class="carousel__artistes6 artistes6">
-                        <a class="artistes6__link" href="/templateartistes6.html">
-                            <img class="artistes6__img" src="assets/img/artistes/danakil.avif" alt="Photo de Danakil"/>
+                <div class="carousel__item">
+                    <div class="carousel__artiste">
+                        <a class="artistes__link" href="/templateartistes6.html">
+                            <img class="artistes__img" src="assets/img/artistes/danakil.avif" alt="Photo de Danakil"/>
                         </a>
-                        <h3 class="artistes6__nom">Danakil</h3>
-                        <h3 class="artistes6__date">9 AOÛT</h3>
-                        <h3 class="artistes6__scene">scène Lumix</h3>
+                        <h3 class="artistes__nom">Danakil</h3>
+                        <h3 class="artistes__date">9 AOÛT</h3>
+                        <h3 class="artistes__scene">scène Lumix</h3>
                     </div>
                 </div>
             </div>
 
-            <button class="carousel__btn carousel__btn--next btn" aria-label="artistes suivants">
-                <span class="btn__fleche2">›</span>
-            </button>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev btn" aria-label="artistes précédents">
+                    <img class="btn__fleche" src="assets/icons/arrow1.svg" alt="fleche gauche" />
+                </button>
+                <button class="carousel__button carousel__button--next btn" aria-label="artistes suivants">
+                    <img class="btn__fleche" src="assets/icons/arrow2.svg" alt="fleche droite" />
+                </button>
+            </div>
         </section>
         
         <section class = "section">

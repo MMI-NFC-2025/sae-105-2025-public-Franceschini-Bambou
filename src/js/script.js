@@ -31,30 +31,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const carousel = document.querySelector('.carousel');
     
     if (carousel) {
-        const prevBtn = carousel.querySelector('.carousel__btn--prev');
-        const nextBtn = carousel.querySelector('.carousel__btn--next');
+        const prevBtn = carousel.querySelector('.carousel__button--prev');
+        const nextBtn = carousel.querySelector('.carousel__button--next');
         const container = carousel.querySelector('.carousel__container');
-        const slides = carousel.querySelectorAll('.carousel__slide');
         
-        let currentSlide = 0;
+        // Récupérer la largeur du premier item pour le défilement
+        const firstItem = carousel.querySelector('.carousel__item');
+        const scrollAmount = firstItem ? firstItem.clientWidth + 16 : 300; // 16px = gap
 
-        function showSlide(n) {
-            const transform = -n * 100;
-            container.style.transform = `translateX(${transform}%)`;
-        }
+        prevBtn.addEventListener('click', () => {
+            container.scrollBy({
+                left: -scrollAmount,
+                behavior: 'smooth'
+            });
+        });
 
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % slides.length;
-            showSlide(currentSlide);
-        }
-
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            showSlide(currentSlide);
-        }
-
-        prevBtn.addEventListener('click', prevSlide);
-        nextBtn.addEventListener('click', nextSlide);
+        nextBtn.addEventListener('click', () => {
+            container.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
     }
 });
 

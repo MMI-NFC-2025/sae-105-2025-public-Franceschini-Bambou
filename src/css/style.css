@@ -12,6 +12,7 @@
 /*components*/
 @import "./components/button.css";
 @import "./components/menu.css";
+@import "./components/carousel.css";
 
 /*vendors*/
 @import "./vendors/normalize.css";

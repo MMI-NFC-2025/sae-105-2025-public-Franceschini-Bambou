@@ -63,3 +63,16 @@
   text-transform: capitalize;
   margin-bottom: 3rem;
 }
+
+.carousel__btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: var(--blanc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
