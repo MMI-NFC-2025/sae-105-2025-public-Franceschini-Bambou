@@ -53,26 +53,26 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // ========== BOUTON VERS LE HAUT ==========
+    const btnRetourHaut = document.getElementById('btn-retour-haut');
+
+    if (btnRetourHaut) {
+        // Afficher/masquer le bouton au scroll
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                btnRetourHaut.classList.add('visible');
+            } else {
+                btnRetourHaut.classList.remove('visible');
+            }
+        });
+
+        // Remonter au top au clic
+        btnRetourHaut.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
 });
-
-    // ========== bouton vers le haut ==========
-const btnHaut = document.getElementById('btn-retour-haut');
- if (btnHaut) {
-
-    window.addEventListener('scroll', () => {
-      const isBottom = (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 50);
-
-      if (isBottom) {
-        btnHaut.classList.add('visible');
-      } else {
-        btnHaut.classList.remove('visible');
-      }
-    });
-
-    btnHaut.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  }

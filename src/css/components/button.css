@@ -89,40 +89,36 @@
 }
 
 .bouton-haut {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000; 
-    width: 50px;
-    height: 50px;
-    background-color: transparent; 
-    border: none;
-    box-shadow: none;
-    cursor: pointer;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: all 0.4s ease;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  background-color: var(--vert);
+  border: 2px solid var(--vert);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 999;
 }
 
 .bouton-haut.visible {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .bouton-haut:hover {
-    background-color: transparent; 
-    transform: translateY(-5px);
+  background-color: var(--vert);
 }
 
 .bouton-haut__icone {
-    width: 40px;
-    height: 40px;
-    display: block;
-    filter: brightness(0) invert(1);
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
 }
+
