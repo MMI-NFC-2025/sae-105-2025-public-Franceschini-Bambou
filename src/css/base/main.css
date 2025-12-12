@@ -171,3 +171,75 @@ body {
   align-items: center;
   text-align: center;
 }
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact__title{
+  color: var(--bleu);
+  font-family: var(--string-t-p);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.contact__desciption {
+  color: var(--bleu);
+  font-family: var(--string-info), sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contactform {
+  width: 100%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__firstname-wrapper,
+.contact__lastname-wrapper,
+.contact__object-wrapper,
+.contact__email-wrapper,
+.contact__message-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contactlabel {
+  color: var(--bleu);
+  font-family: var(--string-info), sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+}
+
+.contactinput {
+  background-color: var(--bleu);
+  color: var(--blanc);
+  border: none;
+  padding: 0.75rem;
+  font-family: var(--string-info), sans-serif;
+  font-size: 0.875rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+}
+
+.contact__message-wrapper input {
+  height: 6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.contactinput::placeholder {
+  color: var(--blanc);
+}
+

@@ -12,7 +12,7 @@
 }
 
 /* Colonne gauche : contact */
-.contact__title {
+.footer__contact .contact__title {
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
